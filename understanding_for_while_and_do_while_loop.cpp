@@ -25,6 +25,8 @@ int main(){
         cout << i << " x " << n << " = " << setw(3) << i*n << endl;
         n++;
      } while (n <= 20);
+
+       return 0;
      
     
     
