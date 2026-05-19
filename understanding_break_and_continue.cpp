@@ -31,7 +31,7 @@ int main() {
 
         // for Even numbers
         if(option == 1) {
-            cout << "Even numbers: ";
+            cout << "Even numbers upto " << num << " are: ";
             for(int i = 2; i <= num; i++) {
                 if(i % 2 != 0) continue;  
                 cout << i << " ";
@@ -41,7 +41,7 @@ int main() {
 
         // for Odd numbers
         if(option == 2) {
-            cout << "Odd numbers: ";
+            cout << "Odd numbers upto "<< num << " are: ";
             for(int i = 1; i <= num; i++) {
                 if(i % 2 == 0) continue; 
                 cout << i << " ";
