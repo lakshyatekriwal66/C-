@@ -16,7 +16,7 @@ int main() {
         
         if(option < 1 || option > 3) {
             cout << "Invalid choice! Try again." << endl;
-            continue;  // Goes to lop again 
+            continue;  // Goes to loop again 
         }
 
         // Exit
